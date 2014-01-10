@@ -5,7 +5,7 @@ First project for CompSci 308 Spring 2014
 
 Genre: Fighting Game
 
-Name: Monster Smackdown
+Name: Super Slam Sisters
 
 Goal: To win the game, enemies must either all be depleted of health or knocked off the boundaries of the stage (not sure if I will implement one or both). Cheat keys will be made to either give infinite health or make attacks stronger.
 
