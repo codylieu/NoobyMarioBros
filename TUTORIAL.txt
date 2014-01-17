@@ -1,0 +1,23 @@
+This is the game I made, based off of the popular Mario franchise.
+
+It is a shooter and has two levels, a minion level and a boss level.
+
+For the minion level, you just have to kill all the koopa on the screen
+and can move left, right, up, and down.
+
+For the boss level, you have to kill Bowser, which takes 10 hits, while avoiding 
+the endless barrage of Bullet Bills. in this level you can only move up and down.
+
+The Z key is used to fire.
+
+
+If you are having difficulty with the game, I have implemented some useful cheat codes:
+
+Pressing 'X' will, not only make your fireball significantly bigger, but also allow it
+to keep going after hitting an object, so it can hit multiple objects before going off screen.
+
+Pressing 'C' will increase the amount of fireballs you can fire before having to wait and also allows
+you to fire just by keeping your finger on the key.
+
+Pressing 'V' was inspired by the Star Power Up in Mario. It, not only makes the player invincible, unable
+to be killed, but it also allows the player to kill anything that it touches.
