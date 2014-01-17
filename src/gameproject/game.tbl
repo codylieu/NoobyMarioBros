@@ -1,0 +1,12 @@
+splash_image	-	0	splashfinal.png	-
+mybackground	-	0	backgroundfinal.png	-
+fireball	-	0	fireball.png	-
+minion	-	0	GreenKoopa.png	-
+mario	-	0	mario.png	-
+bowser	-	0	Bowser.png	-
+fireSound	fireball.wav
+deathSound	deathSound.wav
+gameOver	gameOver.wav
+winSound	winSound.wav
+OPfireball	-	0	OPfireball.png	-
+bulletbill	-	0	BulletBill2.png	-
