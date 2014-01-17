@@ -3,6 +3,8 @@ game
 
 First project for CompSci 308 Spring 2014
 
+THE PROJECT IS IN THE "gameproject" FOLDER.
+
 Genre: Shooting Game
 
 Name: Super Nooby Mario Bros.
