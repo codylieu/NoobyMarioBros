@@ -4,6 +4,14 @@ import jgame.platform.*;
 
 public class Game extends StdGame {
 
+	private final int BULLET_BILL_DURATION = 6400;
+	private final int BULLET_BILL_FREQUENCY = 12;
+	private boolean gameWon = false;
+	private boolean FIREBALL_CHEAT = false;
+	private int AMMO;
+	private boolean AMMO_CHEAT = false;
+	private boolean INVINCIBILITY = false;
+
 	public static void main(String[] args){
 		new Game(new JGPoint(640, 480));
 	}
@@ -60,6 +68,9 @@ public class Game extends StdGame {
 	}
 	public void paintFrameInGame(){
 		setFont(new JGFont("arial", 0, 15));
+		drawString("Use Z to shoot and arrows to move!", pfWidth()/2, 60, 0);
+		drawString("X, C, and V are cheat codes. Push them for a surprise :)", pfWidth()/2, 80, 0);
+		drawString("(Hint: X is a big fireball, C is unlimited ammo, and V is invincivility :D)", pfWidth()/2, 100, 0);
 		if(level == 0)
 			drawString("Defeat the Koopa Minions to face Bowser!!", pfWidth()/2, 40, 0);
 		else if(level == 1){
@@ -67,8 +78,7 @@ public class Game extends StdGame {
 			drawString("It'll take more than just one hit to take him down", pfWidth()/2, 40, 0);
 		}
 	}
-	int BULLET_BILL_DURATION = 6400;
-	int BULLET_BILL_FREQUENCY = 12;
+
 	public void doFrameInGame(){
 		moveObjects(null, 0);
 		moveObjects();
@@ -92,12 +102,6 @@ public class Game extends StdGame {
 			levelDone();
 		}
 	}
-
-	boolean gameWon = false;
-	boolean FIREBALL_CHEAT = false;
-	int AMMO;
-	boolean AMMO_CHEAT = false;
-	boolean INVINCIBILITY = false;
 
 	public class Player extends JGObject {
 		public Player(double x,double y,double speed) {
